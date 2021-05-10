@@ -66,4 +66,7 @@ attention 을 더 잘 보이게 하기 위해 MNIST 값을 반전시켰다.
 
 핵심 이해 및 구현이 목적이므로 디테일은 추후에 다시 다루어볼 것.
 
-TODO : pre-train & fine-tune 
+## TODO
+1. pre-train & fine-tune
+2. 
+3. 응용 task 접목
