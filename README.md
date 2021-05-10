@@ -15,8 +15,9 @@ visualize 부분은 아래 code 를 참조하였다.
 reference : https://github.com/jeonsworld/ViT-pytorch/blob/main/visualize_attention_map.ipynb
 
 ## dataset
-CIFAR10
-MNIST
+VisionTransformer.ipynb : CIFAR10
+
+VisualizeAttentionMap.ipynb : MNIST
 
 ## result
 ### attention example
@@ -54,6 +55,7 @@ CNN 을 철저히 배제한 transformer 구조로도 image classification 이 �
 논문에 나와있듯이 ViT 는 CNN 기반 구조보다 inductive bias 가 약해서 dataset 이 적은 경우 성능이 떨어진다.
 
 하지만, 큰 dataset 으로 pre-train 한 경우 CNN 기반 구조(inductive bias)를 능가한다.
+
 
 
 attention 을 더 잘 보이게 하기 위해 MNIST 값을 반전시켰다. 
