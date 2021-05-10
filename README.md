@@ -68,5 +68,7 @@ attention 을 더 잘 보이게 하기 위해 MNIST 값을 반전시켰다.
 
 ## TODO
 1. pre-train & fine-tune
-2. 응용 task 접목
-3. Inductive bias 를 조절하는 idea 구현해보기
+
+2.  응용 task 접목
+
+3.  Inductive bias 를 조절하는 idea 구현해보기
