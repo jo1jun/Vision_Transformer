@@ -48,7 +48,11 @@ test accuracy 98.070%
 
 ## Comment
 
-cifar10 dataset 의 경우 정확도가 그리 높진 않다.
+<VisionTransformer.ipynb>
+
+cifar10 dataset 의 경우 정확도가 그리 높진 않다. (매우 단순한 CNN architecture 의 성능인 74.5% 보다도 떨어진다.)
+
+(simple cnn architecture : https://github.com/jo1jun/CS231N/blob/main/assignment2/PyTorch.ipynb at the bottom)
 
 CNN 을 철저히 배제한 transformer 구조로도 image classification 이 가능하다는 것에 의의를 두었다.
 
@@ -56,7 +60,7 @@ CNN 을 철저히 배제한 transformer 구조로도 image classification 이 �
 
 하지만, 큰 dataset 으로 pre-train 한 경우 CNN 기반 구조(inductive bias)를 능가한다.
 
-
+<VisualizeAttentionMap.ipynb>
 
 attention 을 더 잘 보이게 하기 위해 MNIST 값을 반전시켰다. 
 
