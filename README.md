@@ -31,11 +31,11 @@ MNIST
 ### accuracy
 CIFAR10
   
-train accuracy 81.957%
+train accuracy 83.031%
 
-val accuracy 71.700%
+val accuracy 70.600%
 
-test accuracy 70.080%
+test accuracy 70.220%
   
 MNIST
   
