@@ -32,11 +32,11 @@ VisualizeAttentionMap.ipynb : MNIST
 ### accuracy
 CIFAR10
   
-train accuracy 83.031%
+train accuracy 86.490%
 
-val accuracy 70.600%
+val accuracy 75.200%
 
-test accuracy 70.220%
+test accuracy 74.100%
   
 MNIST
   
