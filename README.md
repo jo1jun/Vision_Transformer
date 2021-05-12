@@ -33,11 +33,11 @@ VisualizeAttentionMap.ipynb : MNIST
 ### accuracy
 CIFAR10
   
-train accuracy 86.490%
+train accuracy 88.978%
 
-val accuracy 75.200%
+val accuracy 76.800%
 
-test accuracy 74.100%
+test accuracy 74.910%
   
 MNIST
   
@@ -51,7 +51,7 @@ test accuracy 97.470%
 
 <VisionTransformer.ipynb>
 
-cifar10 dataset 의 경우 정확도가 그리 높진 않다. (매우 단순한 CNN architecture 의 성능인 74.5% 보다도 떨어진다.)
+cifar10 dataset 의 경우 정확도가 그리 높진 않다. (매우 단순한 CNN architecture 의 성능인 74.5% 와 비슷한 수준.)
 
 (simple cnn architecture : https://github.com/jo1jun/CS231N/blob/main/assignment2/PyTorch.ipynb at the bottom)
 
