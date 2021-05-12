@@ -32,7 +32,7 @@ VisualizeAttentionMap.ipynb : MNIST
 
 ### accuracy
 
-[Tensorboard](https://tensorboard.dev/experiment/kuexbfDzQMiXzSerhmMa4w/)
+[Tensorboard](https://tensorboard.dev/experiment/uaGjgzMYROCx6XPH5dKKZA/)
 
 CIFAR10
   
