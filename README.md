@@ -20,14 +20,15 @@ VisionTransformer.ipynb : CIFAR10
 VisualizeAttentionMap.ipynb : MNIST
 
 ## result
-### attention example
-![image](https://user-images.githubusercontent.com/68524289/117577692-c7dd2f80-b125-11eb-9e50-dee45695f3ab.png)
-![image](https://user-images.githubusercontent.com/68524289/117577696-cdd31080-b125-11eb-8040-13fe40bfdba3.png)
-![image](https://user-images.githubusercontent.com/68524289/117577699-d0356a80-b125-11eb-9d53-3d974f4067ff.png)
-![image](https://user-images.githubusercontent.com/68524289/117577704-d3305b00-b125-11eb-9604-2e1bf99264be.png)
-![image](https://user-images.githubusercontent.com/68524289/117577708-d6c3e200-b125-11eb-9326-cfe2bf7cf43c.png)
-![image](https://user-images.githubusercontent.com/68524289/117577710-d9bed280-b125-11eb-8362-244dcb67c49f.png)
+### MNIST Attention Map
+![image](https://user-images.githubusercontent.com/68524289/117996078-cf4a4600-b37c-11eb-9d6d-c1e872ce0bd9.png)
+![image](https://user-images.githubusercontent.com/68524289/117996156-e0935280-b37c-11eb-9a80-982f84886e11.png)
+![image](https://user-images.githubusercontent.com/68524289/117996175-e426d980-b37c-11eb-8395-741f5a0506cc.png)
 
+### ViT-B/14-224 Attention Map
+![image](https://user-images.githubusercontent.com/68524289/117996596-3e279f00-b37d-11eb-8139-ba09f78a504b.png)
+![image](https://user-images.githubusercontent.com/68524289/117996613-41228f80-b37d-11eb-9391-12ee37263343.png)
+![image](https://user-images.githubusercontent.com/68524289/117996628-454ead00-b37d-11eb-8717-8135f57b7fac.png)
 
 ### accuracy
 CIFAR10
@@ -40,11 +41,11 @@ test accuracy 74.100%
   
 MNIST
   
-train accuracy 99.120%
+train accuracy 97.944%
 
-val accuracy 98.120%
+val accuracy 97.790%
 
-test accuracy 98.070%
+test accuracy 97.470%
 
 ## Comment
 
