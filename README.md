@@ -34,7 +34,7 @@ VisualizeAttentionMap.ipynb : MNIST
 
 [Tensorboard](https://tensorboard.dev/experiment/UmmgbIlzQzefEK2i3jCvlQ/)
   
-<custom model MNIST>
+- custom model MNIST
   
 train accuracy 97.944%
 
@@ -42,7 +42,7 @@ val accuracy 97.790%
 
 test accuracy 97.470%
 
-<custom model CIFAR10>
+- custom model CIFAR10
   
 train accuracy 87.943%
 
@@ -50,7 +50,7 @@ val accuracy 76.000%
 
 test accuracy 74.720%
 
-<Imported module CIFAR10>
+- Imported module CIFAR10
 
 train accuracy 86.459%
 
@@ -58,7 +58,7 @@ val accuracy 77.400%
 
 test accuracy 75.600%
 
-<pretrained & finetuned model CIFAR10>
+- pretrained & finetuned model CIFAR10
 
 train accuracy 100.000%
 
