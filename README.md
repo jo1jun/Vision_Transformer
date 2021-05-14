@@ -98,7 +98,7 @@ reference : https://huggingface.co/transformers/v1.2.0/_modules/pytorch_transfor
 
 cifar10 dataset 의 경우 정확도가 그리 높진 않다. (매우 단순한 CNN architecture 의 성능인 74.5% 와 비슷한 수준.)
 
-(simple cnn architecture : https://github.com/jo1jun/CS231N/blob/main/assignment2/PyTorch.ipynb at the bottom)
+(simple cnn architecture : https://github.com/jo1jun/CS231N/blob/main/2020/assignment2/PyTorch.ipynb at the bottom)
 
 CNN 을 철저히 배제한 transformer 구조로도 image classification 이 가능하다는 것에 의의를 두었다.
 
