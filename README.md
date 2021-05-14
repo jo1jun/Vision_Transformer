@@ -10,7 +10,7 @@ ViT 를 논문 참조하여 직접 구현.
 ## VisualizeAttentionMap.ipynb
 위에서 직접 구현한 model 로 MNIST를 학습 시켜 구한 attention map 을 visualization 해 보았다.
 
-visualize 부분은 아래 code 를 참조하였다.
+visualize 부분은 아래 code 를 참조하였다. (layer 마다의 attention map 을 matrix multiplication & mean 하여 구함.)
 
 reference : https://github.com/jeonsworld/ViT-pytorch/blob/main/visualize_attention_map.ipynb
 
@@ -112,9 +112,17 @@ attention 을 더 잘 보이게 하기 위해 MNIST 값을 반전시켰다.
 
 핵심 이해 및 구현이 목적이므로 디테일은 추후에 다시 다루어볼 것.
 
+<ImportedVisionTransformer.ipynb>
+
+https://huggingface.co/transformers/model_doc/vit.html#vitmodel 에서 import 한 module 과 custom model 이 동일한 hyperparmeter 로
+
+유사한 정확도를 보인다. custom model 의 정확성을 확인할 수 있었다.
+
+CIFAR10 을 fine tuning 할 때, 이전 layer 들을 freezing 하지 않았으므로 learning_rate 를 더욱 작게하여 fine tuning 을 진행하였다.
+
+논문에서 제시한 대로 hyperparmeter 들을 조정하면 유사한 정확도를 얻을 수 있을 것.
+
 ## TODO
-1. pre-train & fine-tune
+1.  응용 task 접목
 
-2.  응용 task 접목
-
-3.  Inductive bias 를 조절하는 idea 구현해보기
+2.  Inductive bias 를 조절하는 idea 구현해보기
