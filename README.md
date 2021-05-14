@@ -14,6 +14,15 @@ visualize 부분은 아래 code 를 참조하였다.
 
 reference : https://github.com/jeonsworld/ViT-pytorch/blob/main/visualize_attention_map.ipynb
 
+## ImportedVisionTransformer.ipynb
+https://huggingface.co/transformers/model_doc/vit.html#vitmodel
+
+를 참조하여 import 한 model 로 custom model 이 correct 하다는 것을 확인하였고
+
+pretrained model 을 CIFAR10 에 맞게 fine tuning 하여 정확도를 확인해 보았고
+
+ImageNet 으로 fine tuning 된 pretrained model 로 attention map 을 visualize 해보았다.
+
 ## dataset
 VisionTransformer.ipynb : CIFAR10
 
@@ -26,9 +35,22 @@ VisualizeAttentionMap.ipynb : MNIST
 ![image](https://user-images.githubusercontent.com/68524289/117996175-e426d980-b37c-11eb-8395-741f5a0506cc.png)
 
 ### ViT-B/14-224 Attention Map
+Predicted class: great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias
+
+reference : https://kids.nationalgeographic.com/animals/fish/facts/great-white-shark
+
+Predicted class: pelican
+
+reference : https://www.dw.com/en/theres-more-to-the-pelican-than-a-pouch/g-50613921
+
+Predicted class: tiger, Panthera tigris
+
+reference : https://www.worldwildlife.org/species/tiger
+
 ![image](https://user-images.githubusercontent.com/68524289/117996596-3e279f00-b37d-11eb-8139-ba09f78a504b.png)
 ![image](https://user-images.githubusercontent.com/68524289/117996613-41228f80-b37d-11eb-9391-12ee37263343.png)
 ![image](https://user-images.githubusercontent.com/68524289/117996628-454ead00-b37d-11eb-8717-8135f57b7fac.png)
+
 
 ### accuracy
 
