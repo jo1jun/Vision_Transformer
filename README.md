@@ -90,6 +90,10 @@ test accuracy 96.840%
 
 ## Comment
 
+learning rate 는 paper 에서 나온 것과 유사하게 warmup 이후 cosine decay 를 사용하였다.
+
+reference : https://huggingface.co/transformers/v1.2.0/_modules/pytorch_transformers/optimization.html
+
 <VisionTransformer.ipynb>
 
 cifar10 dataset 의 경우 정확도가 그리 높진 않다. (매우 단순한 CNN architecture 의 성능인 74.5% 와 비슷한 수준.)
