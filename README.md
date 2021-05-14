@@ -10,7 +10,7 @@ ViT 를 논문 참조하여 직접 구현.
 ## VisualizeAttentionMap.ipynb
 위에서 직접 구현한 model 로 MNIST를 학습 시켜 구한 attention map 을 visualization 해 보았다.
 
-visualize 부분은 아래 code 를 참조하였다. (layer 마다의 attention map 을 matrix multiplication & mean 하여 구함.)
+visualize 부분은 아래 code 를 참조하였다. (paper 에서 언급하였듯이 layer 마다의 attention map 을 matrix multiplication & mean 하여 구함.)
 
 reference : https://github.com/jeonsworld/ViT-pytorch/blob/main/visualize_attention_map.ipynb
 
