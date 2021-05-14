@@ -118,11 +118,11 @@ attention 을 더 잘 보이게 하기 위해 MNIST 값을 반전시켰다.
 
 <ImportedVisionTransformer.ipynb>
 
-https://huggingface.co/transformers/model_doc/vit.html#vitmodel 에서 import 한 module 과 custom model 이 동일한 hyperparmeter 로
-
-유사한 정확도를 보인다. custom model 의 정확성을 확인할 수 있었다.
+https://huggingface.co/transformers/model_doc/vit.html#vitmodel 에서 import 한 module 과 custom model 이 동일한 hyperparmeter 로 유사한 정확도를 보인다. custom model 의 정확성을 확인할 수 있었다.
 
 CIFAR10 을 fine tuning 할 때, 이전 layer 들을 freezing 하지 않았으므로 learning_rate 를 더욱 작게하여 fine tuning 을 진행하였다.
+
+정교한 hyperparmeter tuning 없어도 96% 이상의 정확도를 보여 Transfer Learning 의 위력을 확인할 수 있었다.
 
 논문에서 제시한 대로 hyperparmeter 들을 조정하면 유사한 정확도를 얻을 수 있을 것.
 
