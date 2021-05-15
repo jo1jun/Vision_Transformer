@@ -52,9 +52,9 @@ reference : https://www.worldwildlife.org/species/tiger
 ![image](https://user-images.githubusercontent.com/68524289/117996628-454ead00-b37d-11eb-8717-8135f57b7fac.png)
 
 
-### accuracy
+## Accuracy
 
-[Tensorboard](https://tensorboard.dev/experiment/UmmgbIlzQzefEK2i3jCvlQ/)
+### [Tensorboard](https://tensorboard.dev/experiment/UmmgbIlzQzefEK2i3jCvlQ/)
   
 - custom model MNIST
   
@@ -94,7 +94,7 @@ learning rate 는 paper 에서 나온 것과 유사하게 warmup 이후 cosine d
 
 reference : https://huggingface.co/transformers/v1.2.0/_modules/pytorch_transformers/optimization.html
 
-<VisionTransformer.ipynb>
+- VisionTransformer.ipynb
 
 cifar10 dataset 의 경우 정확도가 그리 높진 않다. (매우 단순한 CNN architecture 의 성능인 74.5% 와 비슷한 수준.)
 
@@ -106,7 +106,7 @@ CNN 을 철저히 배제한 transformer 구조로도 image classification 이 �
 
 하지만, 큰 dataset 으로 pre-train 한 경우 CNN 기반 구조(inductive bias)를 능가한다.
 
-<VisualizeAttentionMap.ipynb>
+- VisualizeAttentionMap.ipynb
 
 attention 을 더 잘 보이게 하기 위해 MNIST 값을 반전시켰다. 
 
@@ -116,7 +116,7 @@ attention 을 더 잘 보이게 하기 위해 MNIST 값을 반전시켰다.
 
 핵심 이해 및 구현이 목적이므로 디테일은 추후에 다시 다루어볼 것.
 
-<ImportedVisionTransformer.ipynb>
+- ImportedVisionTransformer.ipynb
 
 https://huggingface.co/transformers/model_doc/vit.html#vitmodel 에서 import 한 module 과 custom model 이 동일한 hyperparmeter 로 유사한 정확도를 보인다. custom model 의 정확성을 확인할 수 있었다.
 
