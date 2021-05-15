@@ -90,7 +90,7 @@ test accuracy 96.840%
 
 ## Comment
 
-learning rate 는 paper 에서 나온 것과 유사하게 warmup 이후 cosine decay 를 사용하였다.
+learning rate 는 paper 에서 나온 것과 유사하게 warmup(전체 epoch 의 1/5) 이후 cosine decay 를 사용하였다.
 
 reference : https://huggingface.co/transformers/v1.2.0/_modules/pytorch_transformers/optimization.html
 
